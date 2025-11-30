@@ -1,0 +1,34 @@
+{
+  "name": "@riiixch/validate-input",
+  "version": "1.0.0",
+  "description": "Lightweight TypeScript validation library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "validation",
+    "typescript",
+    "schema",
+    "riiixch"
+  ],
+  "author": "RIIIXCH",
+  "license": "MIT",
+  "type": "commonjs",
+  "homepage": "https://github.com/riiixch/validateInput#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riiixch/validateInput.git"
+  },
+  "bugs": {
+    "url": "https://github.com/riiixch/validateInput/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
